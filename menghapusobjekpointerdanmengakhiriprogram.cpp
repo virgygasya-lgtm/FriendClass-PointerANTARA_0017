@@ -18,3 +18,7 @@ int main()
 
     mhs->nim = 2;
     mhs->showNim();
+
+    delete mhs; // menghapus objek pointer
+    return 0;
+}
